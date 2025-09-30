@@ -10,7 +10,8 @@ minutes: '1'
 
 ---
 
-The initially reported malicious versions of the hijacked npm package eslint-config-prettier are 8.10.1, 9.1.1, 10.1.6, and 10.1.7. However, our analysis reveals version 10.1.6 is actually SAFE. 
+The initially reported malicious versions of the hijacked npm package eslint-config-prettier are 8.10.1, 9.1.1, 10.1.6, and 10.1.7. However, our analysis reveals version 10.1.6 is actually SAFE.
+ 
 ![](/img/RealTimePostImage/posts/eslint-config-prettier-1.png)
 
 The npm package eslint-config-prettier was hijacked due to a phishing attack (CVE-2025-54313). This package has over 30M weekly downloads, making this a significant supply chain risk. Several more packages by the same maintainer were also hijacked, including eslint-plugin-prettier, synckit, @pkgr/core, and napi-postinstall.
